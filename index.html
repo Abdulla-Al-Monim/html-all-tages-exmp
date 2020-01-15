@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>html all tags</title>
+	<link rel="icon" href="images/38-512.png" sizes="16x16" type="image/png">
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.container{
+			margin: 50px 150px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<table border="1px"cellspacing="0" cellpadding="10px 20px">
+	   		<tr>
+	    		<th style="background: black; color: white">SI</th>
+	    		<th style="background: black; color: white">Teg Name</th>
+	    		<th style="background: black; color: white">Descpription</th>
+	    		<th style="background: black; color: white">Type</th>
+	    		<th style="background: black; color: white">Example</th>
+	  		</tr>
+	  		<tr>
+	   			<td style="text-align:center; color: white; background: #2D3950;padding: 10px 0">1</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">address teg</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines contact information for the author/owner of a document</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<address>
+						Written by <a href="https://web.facebook.com/rasel.monim" target="_blank">Abdulla Al Monim
+				    </address></td>
+	    		</td>
+	 		 </tr>
+	  		<tr>
+	   			<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">2</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">article</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines an article</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">
+	    			<article>
+				    	<h1>Google Chrome</h1>
+				    	<p>Google Chrome is a free, open-source web browser developed by Google, released in 2008.</p>
+					</article></td>
+
+	  		</tr>
+	  		<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">3</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">aside</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines content aside from the page content</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0"><p>My family and I visited The Epcot center this summer.</p>
+					<aside>
+						<h4>Epcot Center</h4>
+			   		 	<p>The Epcot Center is a theme park in Disney World, Florida.</p>
+					</aside>
+				</td>
+	  		</tr>
+	  		<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">4</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">blockquote</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines a section that is quoted from another source</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<blockquote cite="http://www.worldwildlife.org/who/index.html">
+						For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+					</blockquote>
+				</td>
+	  		</tr>
+	  		<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">5</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">canvas</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Used to draw graphics, on the fly, via scripting (usually JavaScript)</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">
+	    			<canvas id="myCanvas"></canvas>
+
+					<script>
+						var canvas = document.getElementById("myCanvas");
+						var ctx = canvas.getContext("2d");
+						ctx.fillStyle = "#FF0000";
+						ctx.fillRect(0, 0, 80, 80);
+					</script>
+				</td>
+	  		</tr>
+	  		<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">6</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">dd</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines a description/value of a term in a description list</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">
+	    			<dl>
+						<dt>Coffee</dt>
+					    <dd>Black hot drink</dd>
+					    <dt>Milk</dt>
+					    <dd>White cold drink</dd>
+					</dl
+				></td>
+	  		</tr>
+	  		<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">7</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Div</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines a section in a document
+				</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<div style="background-color:lightblue">
+						  <h3>This is a heading</h3>
+						  <p>This is a paragraph.</p>
+					</div>
+				</td>
+	  		</tr>
+	  		<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">8</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">dt</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines a term/name in a description list</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">
+	    			<dl>
+						<dt>Coffee</dt>
+					    <dd>Black hot drink</dd>
+					    <dt>Milk</dt>
+					    <dd>White cold drink</dd>
+					</dl>
+				</td>
+	  		</tr>
+	  		<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">9</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">fieldset</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Groups related elements in a form</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<form>
+						  <fieldset>
+						 	 <legend>Personalia:</legend>
+						      Name: <input type="text"><br>
+						      Email: <input type="text"><br>
+						      Date of birth: <input type="text">
+						  </fieldset>
+					</form>
+				</td>
+	  		</tr>
+	  		<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">10</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">figcaption</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines a caption for a element</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">
+	    			<figure>
+  						<figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+					</figure>
+				</td>
+	  		</tr>
+	  		<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">11</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">video</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines a video or movie</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">
+	    			<video width="320" height="240" controls>
+	  					<source src="video/Beautifull Arabic naat Assalam o Alaika ya Rasool Allah (s.a.w.w).mp4" type="video/mp4">
+	  				</video>
+	  			</td>
+	  		</tr>
+	  		<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">12</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">figure</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">The <figure> tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<figure>
+				  		<img src="images/human-013-512.png">
+					</figure>
+				</td>
+	  		</tr>
+	  		<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">13</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">footer</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines a footer for a document or section</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<footer>
+					    <p>Posted by: Moinm</p>
+					    <p>Contact information: <a href="https://web.facebook.com/rasel.monim" target="_blank">
+					    Abdulla al monim</a>.</p>
+					</footer>
+				</td>
+	  		</tr>
+	  		<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">14</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">form</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines an HTML form for user input</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<form action="/action_page.php" method="get">
+  						First name: <input type="text" name="fname"><br>
+  						Last name: <input type="text" name="lname"><br>
+ 						 <input type="submit" value="Submit">
+					</form>
+	    	    </td>
+	  		</tr>
+	  		<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">15</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">H1</h1></td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">
+	    			Defines HTML headings(font-size: 2em
+				    font-weight: bolder
+				    32 px)
+				</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0"><h1>I am Monim</h1></td>
+	  		</tr>
+	  		 <tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">16</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">H2</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines HTML headings(font-size: 1.5em
+				font-weight: bolder
+
+				24 px)</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0"><h2>I am monim</h2></td>
+	  		</tr>
+	  		<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">17</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">H3</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines HTML headings(font-size: 1.17em
+				font-weight: bolder
+
+				18.72 px)</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0"><h3>I am Monim</h3></td>
+	  		</tr>
+	  		<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">17</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">H4</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines HTML headings(font-size: 1em
+				font-weight: bolder
+
+				16 px)</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0"><h4>I am monim</h4></td>
+	  		</tr>
+	  		<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">18</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">H5</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines HTML headings(font-size: .83em
+				font-weight: bolder
+
+				13.28 px)</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0"><h5>I am Monim</h5></td>
+	  		</tr>
+	  		<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">19</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">h6</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines HTML headings(font-size: .67em
+				font-weight: bolder
+
+				10.72 px)</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0"><h6>I am Monim</h6></td>
+	  		</tr>
+	  		<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">20</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">List</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">	Defines a list item</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<ol>
+					    <li>Coffee</li>
+					    <li>Tea</li>
+					    <li>Milk</li>
+					</ol>
+					<ul>
+					  	<li>Coffee</li>
+					 	 <li>Tea</li>
+					 	 <li>Milk</li>
+					</ul>
+	    		</td>
+	  		</tr>
+	  		<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">21</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Hr</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines a thematic change in the content</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<h1>HTML</h1>
+      				<p>HTML is a language for describing web pages.....</p>
+
+					<hr>
+
+					<h1>CSS</h1>
+					<p>CSS defines how to display HTML elements.....</p>
+	    		</td>
+	  		</tr>
+	  		<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">23</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Heaer</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines a header for a document or section<</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<article>
+					  	<header>
+					    	<h1>Most important heading here</h1>
+					    	<h2>Less important heading here</h2>
+					    	<p>Some additional information here</p>
+					  	</header>
+					  	<p>Lorem Ipsum dolor set amet....</p>
+					</article>
+	    		</td>
+	  		</tr>
+	  		<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">24</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Main</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Specifies the main content of a document</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<main>
+					    <h1>Web Browsers</h1>
+					  	<p>Google Chrome, Firefox, and Internet Explorer are the most used browsers today.</p>
+
+					  	<article>
+					    	<h1>Google Chrome</h1>
+					    	<p>Google Chrome is a free, open-source web browser developed by Google,
+					    	released in 2008.</p>
+					    </article>
+
+					    <article>
+					    	<h1>Internet Explorer</h1>
+					      	<p>Internet Explorer is a free web browser from Microsoft, released in 1995.</p>
+					    </article>
+
+					    <article>
+					   		<h1>Mozilla Firefox</h1>
+					    	<p>Firefox is a free, open-source web browser from Mozilla, released in 2004.</p>
+					  	</article>
+					</main>
+	    		</td>
+	  		</tr>
+	  		<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">25</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Nav</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines navigation links</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center; color:white; background: #2D3950;padding: 10px 0">
+	    			<nav>
+  						<a href="#/">HTML</a> |
+  						<a href="#">CSS</a> |
+  						<a href="#">JavaScript</a> |
+  						<a href="#">jQuery</a>
+					</nav>
+	    		</td>
+	  		</tr>
+	  		<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">26</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">noframes</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines an alternate content for users that do not support client-side </td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<script>
+						document.write("Hello World!")
+					</script>
+					<noscript>
+						Your browser does not support JavaScript!
+					</noscript>
+	    		</td>
+	  		</tr>
+	  		<tr>
+	   		    <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">27</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Order List</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines an ordered list</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<ol style="list-style: none;">
+					   <li>Coffee</li>
+					   <li>Tea</li>
+					  <li>Milk</li>
+					</ol>
+
+					<ol style="list-style: none;">
+					   <li>Coffee</li>
+					   <li>Tea</li>
+					   <li>Milk</li>
+					</ol>
+	    		</td>
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">28</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">P</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">This is some text in a paragraph.</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">
+	    			<p>This is some text in a paragraph.</p>
+	    		</td>
+	  		</tr>
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">29</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Pre</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines preformatted text</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<pre>
+						Text in a pre element
+						is displayed in a fixed-width
+						font, and it preserves
+						both      spaces and
+						line breaks
+					</pre>
+	    		</td>
+	  		</tr>
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">30</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Secion</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines preformatted text</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">
+	    			<section>
+  						<h1>WWF</h1>
+ 						<p>The World Wide Fund for Nature (WWF) is....</p>
+					</section>
+	    		</td>
+	  		</tr>
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">31</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Table</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines a table</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0;padding-left: 150px;">
+	    			<table>
+					 	<tr>
+					    	<th>Month</th>
+					    	<th>Savings</th>
+					  	</tr>
+					  	<tr>
+					    	<td>January</td>
+					    	<td>$100</td>
+					 	 </tr>
+					</table>
+	    		</td>
+	  		</tr>
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">32</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">tfoot</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Groups the footer content in a table</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<table>
+					  <thead>
+					    <tr>
+					      <th>Month</th>
+					      <th>Savings</th>
+					    </tr>
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td>January</td>
+					      <td>$100</td>
+					    </tr>
+					    <tr>
+					      <td>February</td>
+					      <td>$80</td>
+					    </tr>
+					  </tbody>
+					  <tfoot>
+					    <tr>
+					      	<td>Sum</td>
+					      	<td>$180</td>
+					    </tr>
+					  	</tfoot>
+							</table>
+	    				</td>
+	  				</tr>
+	  		    </tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">33</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Ul</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines an unordered list</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">block</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<ul style="list-style: none;">
+					 	<li>Coffee</li>
+					  	<li>Tea</li>
+					  	<li>Milk</li>
+					</ul>
+	    		</td>
+	  		</tr>
+	  		 </tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">34</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Audio</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines sound content </td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<audio controls style="background: transparent;">
+				    	<source src="audio/Dil-Dil-Ramzan-by-Rahat-Fateh-Ali-Khan-New-Ramzan-Naat-2017-Best-Urdu-Naat.ogg" type="audio/ogg">
+				  </audio>
+	    		</td>
+	  		</tr> 
+	        </tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">35</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">A</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines a hyperlink</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0"><a href="#">read more</a></td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">36</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">abbr</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines an abbreviation or an acronym</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</td>
+	  		</tr>  		
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">37</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">acronym</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Not supported in HTML5. Use abbr instead.
+				Defines an acronym</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Blank</td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">38</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">B</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines bold text</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0"><p>This is normal text - <b>and this is bold text</b>.</p></td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">39</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">bdo</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Overrides the current text direction</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<bdo dir="rtl">
+						This text will go right-to-left.
+					</bdo>
+	    		</td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">40</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">big</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Not supported in HTML5. Use CSS instead.
+				Defines big text</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Blank</td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">41</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">br</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines a single line break</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">This text contains<br>a line break</td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">42</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">button</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines a clickable button
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0"><button type="button">Click Me!</button></td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">43</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">cite</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines the title of a work</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0"><p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p></td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">44</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">code</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines a piece of computer code</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0"><code>A piece of computer code</code></td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">45</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">dfn</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Represents the defining instance of a term<</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0"><p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p></td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">46</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">em</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines emphasized text </td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Blank</td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">47</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">i</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">font-style: italic</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<p>He named his car <i>The lightning</i>, because it was very fast.</p>
+	    		</td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">48</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">img</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines an image </td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">
+	    			<img src="images/38-512.png">
+	    		</td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">49</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">input</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines an input control</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<input style="background: transparent;border: 1px solid" type="text" name="" placeholder="input sumthing">
+	    		</td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">50</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">kbd</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines keyboard input</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0"><kbd>Keyboard input</kbd></td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">51</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">label</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines a label for an element</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<form action="/action_page.php">
+					  	<label for="male">Male</label>
+					  	<input type="radio" name="gender" id="male" value="male"><br>
+					  	<label for="female">Female</label>
+					  	<input type="radio" name="gender" id="female" value="female"><br>
+					  	<label for="other">Other</label>
+					 	<input type="radio" name="gender" id="other" value="other"><br><br>
+					  	<input type="submit" value="Submit">
+					</form>
+	    		</td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 	<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">52</td>
+	    			<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">map</td>
+	    			<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines a client-side image-map</td>
+	    			<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    			<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    				<img src="images/download.gif" width="145" height="126" alt="Planets" usemap="#planetmap">
+
+						<map name="planetmap">
+					  		<area shape="rect" coords="0,0,82,126" href="sun.htm" alt="Sun">
+					  		<area shape="circle" coords="90,58,3" href="mercur.htm" alt="Mercury">
+					  		<area shape="circle" coords="124,58,8" href="venus.htm" alt="Venus">
+						</map>
+	    			</td>
+	  			</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">53</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">object</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines an embedded object</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<object width="400" height="400" data="helloworld.swf"></object>
+	    		</td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">54</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">out put</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">	Defines the result of a calculation</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+						 <input type="range" id="a" value="50">100
+						 +<input type="number" id="b" value="50">
+						 =<output name="x" for="a b"></output>
+					</form>
+				</td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">54</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">q</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines a short quotation</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<p>WWF's goal is to:
+					<q>Build a future where people live in harmony with nature.</q>
+					We hope they succeed.</p>
+	    		</td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">55</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">samp</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines sample output from a computer program</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0"><samp>Sample output from a computer program</samp></td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">56</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">script</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines a client-side script</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<script>
+						document.getElementById("demo").innerHTML = "Hello JavaScript!";
+					</script>
+	    		</td>
+	  		</tr> 
+
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">57</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">(<.!----.>)</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">coment</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0"></td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0"></td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">58</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">select</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines a drop-down list</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<select>
+					  	<option value="volvo">Volvo</option>
+					  	<option value="saab">Saab</option>
+					  	<option value="mercedes">Mercedes</option>
+					  	<option value="audi">Audi</option>
+					</select>
+	    		</td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">59</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0"></td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0"></td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0"></td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">60</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">small</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines smaller text</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">
+	    			<p>W3Schools.com - the world's largest web development site.</p>
+					<p><small>Copyright 1999-2050 by Refsnes Data</small></p>
+	    		</td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">61</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">span</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines a section in a document
+				</td>
+				<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<p>My mother has <span style="color:blue">blue</span> eyes.</p>
+	    		</td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">62</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">strong</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines important text</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0"><strong>Strong text</strong></td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">63</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">sub</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines subscripted text</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0"><p>This text contains <sub>subscript</sub> text.</p></td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">64</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">sup</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines superscripted text</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0"><p>This text contains <sup>superscript</sup> text.</p></td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">65</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0"></td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0"></td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0"></td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">66</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">textarea</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines a multiline input control (text area)</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<textarea rows="4" cols="50">
+						At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
+					</textarea>
+				</td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">67</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">time</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines a date/time </td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<p>We open at <time>10:00</time> every morning.</p>
+
+					<p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+	    		</td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">68</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">tt</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">	Not supported in HTML5. Use CSS instead.
+				Defines teletype text</td>
+				<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<p><tt>Teletype text</tt></p>
+	    		</td>
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">69</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">var</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">	Defines a variable <var>12</var></td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">Inline</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0"><var>Variable</var></td>
+	    		
+	  		</tr> 
+	  		</tr>
+	  		  	<tr>
+	   			 <td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">70</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">!DOCTYPE</td>
+	    		<td style="text-align: center;color: white; background: #2D3950;padding: 10px 0">Defines the document type</td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0"></td>
+	    		<td style="text-align: center; color: white; background: #2D3950;padding: 10px 0">
+	    			<!DOCTYPE html>
+						<html>
+						<head>
+						<title>Title of the document</title>
+						</head>
+
+						<body>
+						The content of the document......
+						</body>
+
+						</html>
+	    		</td>
+	  		</tr> 	
+		</table>
+	</div>
+</body>
+</html>
